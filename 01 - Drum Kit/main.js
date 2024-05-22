@@ -1,3 +1,6 @@
+import sys;
+
+
 const keys = Array.from(document.querySelectorAll('.key'));
 
 const keyCode = {
@@ -33,6 +36,12 @@ function playSound(e) {
   audio.play();
 }
 
+
+var xxx = 6 + 7;
+
+var yyy = xxx + 5;
+
+console.log(xxx)
 
 keys.forEach((key) => key.addEventListener('transitionend', removeTransition));
 
