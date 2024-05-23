@@ -1,6 +1,7 @@
 import sys;
 import requests;
 import transformers;
+import transformers;
 
 const keys = Array.from(document.querySelectorAll('.key'));
 
